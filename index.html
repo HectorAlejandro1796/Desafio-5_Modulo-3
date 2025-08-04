@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Desafio</title>
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <div class="container">
+      <p>Nueva tarea</p>
+      <input
+        type="text"
+        placeholder="Introduzca Nueva Tarea"
+        id="nuevaTareaInput"
+      />
+      <button id="btn_agregar">Agregar</button>
+
+      <div class="tareas-layout">
+        <div class="contador">
+          Total: <strong id="total">0</strong><br />
+          Realizadas: <strong id="realizadas">0</strong>
+        </div>
+        <div class="tabla">
+          <table id="lista"></table>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

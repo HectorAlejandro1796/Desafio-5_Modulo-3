@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: #e3e3e3;
+  padding: 20px;
+  border: 1px solid #999;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#btn_agregar {
+  padding: 8px 12px;
+  background-color: #2d7a3e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #246632;
+}
+
+.tareas-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.contador {
+  flex: 1;
+  font-size: 16px;
+}
+
+.tabla {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+#lista {
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+#lista th,
+#lista td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#lista th {
+  background-color: #f5f5f5;
+}
